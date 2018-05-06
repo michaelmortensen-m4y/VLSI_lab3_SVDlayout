@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : qor
+Design : SVD
+Version: G-2012.06-ICC
+Date   : Sun May  6 13:22:34 2018
+****************************************
+
+
+  Timing Path Group 'CLK'
+  -----------------------------------
+  Levels of Logic:          11.000000
+  Critical Path Length:      0.950843
+  Critical Path Slack:       0.001967
+  Critical Path Clk Period:  1.000000
+  Total Negative Slack:      0.000000
+  No. of Violating Paths:    0.000000
+  Worst Hold Violation:      0.000000
+  Total Hold Violation:      0.000000
+  No. of Hold Violations:    0.000000
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         82
+  Hierarchical Port Count:      10013
+  Leaf Cell Count:               7748
+  Buf/Inv Cell Count:             589
+  CT Buf/Inv Cell Count:            9
+  Combinational Cell Count:      7028
+  Sequential Cell Count:          720
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    62855.160887
+  Noncombinational Area: 13445.600471
+  Net Area:                  0.000000
+  Net XLength        :   88784.218750
+  Net YLength        :   87923.609375
+  -----------------------------------
+  Cell Area:             76300.761358
+  Design Area:           76300.761358
+  Net Length        :   176707.828125
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          7940
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: eda4.imm.dtu.dk
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                0.969864
+  Logic Optimization:              2.815582
+  Mapping Optimization:            72.253006
+  -----------------------------------------
+  Overall Compile Time:            79.573914
+  Overall Compile Wall Clock Time: 80.692368
+
+1

@@ -1,0 +1,316 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : SVD
+Version: G-2012.06
+Date   : Sun May  6 13:08:51 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U184                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U185                      NR2AHVTX2       CORE90GPHVT     5.488000  
+U186                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U187                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U188                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U189                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U190                      AN2BSVTX6       CORE90GPSVT     13.171200 
+U191                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U192                      NR2AHVTX2       CORE90GPHVT     5.488000  
+U193                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U194                      NR2ASVTX8       CORE90GPSVT     13.171200 
+U195                      AN2BSVTX2       CORE90GPSVT     7.683200  
+U196                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U197                      NR2AHVTX2       CORE90GPHVT     5.488000  
+U198                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U199                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U200                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U201                      NR2AHVTX2       CORE90GPHVT     5.488000  
+U202                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U203                      AN2BSVTX4       CORE90GPSVT     8.780800  
+U204                      AN2BSVTX4       CORE90GPSVT     8.780800  
+U205                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U206                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U207                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U208                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U209                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U210                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U211                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U212                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U213                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U214                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U215                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U216                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U217                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U218                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U219                      BFSVTX2         CORE90GPSVT     4.390400  
+U220                      AN2BSVTX4       CORE90GPSVT     8.780800  
+U221                      BFSVTX2         CORE90GPSVT     4.390400  
+U222                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U223                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U224                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U225                      AN2BSVTX4       CORE90GPSVT     8.780800  
+U226                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U227                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U228                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U229                      NR2ASVTX8       CORE90GPSVT     13.171200 
+U230                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U231                      NR2ASVTX8       CORE90GPSVT     13.171200 
+U232                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U233                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U234                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U235                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U236                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U237                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U238                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U239                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U240                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U241                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U242                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U243                      NR2ASVTX4       CORE90GPSVT     8.780800  
+U244                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U245                      NR2ASVTX6       CORE90GPSVT     10.976000 
+U246                      AN2BSVTX2       CORE90GPSVT     7.683200  
+U247                      IVSVTX0H        CORE90GPSVT     2.195200  
+U248                      IVSVTX0H        CORE90GPSVT     2.195200  
+U249                      BFSVTX2         CORE90GPSVT     4.390400  
+U250                      BFSVTX2         CORE90GPSVT     4.390400  
+U251                      BFSVTX2         CORE90GPSVT     4.390400  
+U252                      BFSVTX2         CORE90GPSVT     4.390400  
+U253                      BFSVTX2         CORE90GPSVT     4.390400  
+U254                      BFSVTX2         CORE90GPSVT     4.390400  
+U255                      IVSVTX0H        CORE90GPSVT     2.195200  
+U256                      IVSVTX0H        CORE90GPSVT     2.195200  
+U257                      IVSVTX0H        CORE90GPSVT     2.195200  
+U258                      IVSVTX0H        CORE90GPSVT     2.195200  
+U259                      IVSVTX0H        CORE90GPSVT     2.195200  
+U260                      IVSVTX0H        CORE90GPSVT     2.195200  
+U261                      IVSVTX0H        CORE90GPSVT     2.195200  
+U262                      IVSVTX0H        CORE90GPSVT     2.195200  
+U263                      IVSVTX0H        CORE90GPSVT     2.195200  
+U264                      IVSVTX0H        CORE90GPSVT     2.195200  
+U265                      IVSVTX0H        CORE90GPSVT     2.195200  
+U266                      IVSVTX0H        CORE90GPSVT     2.195200  
+U267                      IVSVTX0H        CORE90GPSVT     2.195200  
+U268                      IVSVTX0H        CORE90GPSVT     2.195200  
+U269                      IVSVTX0H        CORE90GPSVT     2.195200  
+U270                      IVSVTX0H        CORE90GPSVT     2.195200  
+U271                      IVSVTX0H        CORE90GPSVT     2.195200  
+U272                      IVSVTX0H        CORE90GPSVT     2.195200  
+U273                      BFSVTX0H        CORE90GPSVT     3.292800  
+U274                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U275                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U276                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U277                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U278                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U279                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U280                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U281                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U282                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U283                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U284                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U285                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U286                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U287                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U288                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U289                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U290                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U291                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U292                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U293                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U294                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U295                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U296                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U297                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U298                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U299                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U300                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U301                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U302                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U303                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U304                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U305                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U306                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U307                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U308                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U309                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U310                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U311                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U312                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U313                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U314                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U315                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U316                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U317                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U318                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U319                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U320                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U321                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U322                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U323                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U324                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U325                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U326                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U327                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U328                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U329                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U330                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U331                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U332                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U333                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U334                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U335                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U336                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U337                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U338                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U339                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U340                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U341                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U342                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U343                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U344                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U345                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U346                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U347                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U348                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U349                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U350                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U351                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U352                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U353                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U354                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U355                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U356                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U357                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U358                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U359                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U360                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U361                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U362                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U363                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U364                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U365                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U366                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U367                      NR2ASVTX2       CORE90GPSVT     5.488000  
+U368                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U369                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U370                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U371                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U372                      NR2ASVTX1       CORE90GPSVT     4.390400  
+U373                      BFSVTX2         CORE90GPSVT     4.390400  
+U374                      BFSVTX2         CORE90GPSVT     4.390400  
+U375                      BFSVTX2         CORE90GPSVT     4.390400  
+U376                      BFSVTX2         CORE90GPSVT     4.390400  
+U377                      BFSVTX2         CORE90GPSVT     4.390400  
+U378                      BFSVTX2         CORE90GPSVT     4.390400  
+U379                      BFSVTX2         CORE90GPSVT     4.390400  
+U380                      BFSVTX2         CORE90GPSVT     4.390400  
+U381                      BFSVTX2         CORE90GPSVT     4.390400  
+U382                      BFSVTX2         CORE90GPSVT     4.390400  
+U383                      BFSVTX2         CORE90GPSVT     4.390400  
+U384                      BFSVTX2         CORE90GPSVT     4.390400  
+U385                      IVSVTX0H        CORE90GPSVT     2.195200  
+adder                     carryLookAheadAdder_n20_1       502.700792
+                                                                    h, p
+mul0                      multR4_20x20b_2c_3              19097.142335
+                                                                    h, n
+mul1                      multR4_20x20b_2c_2              19584.476731
+                                                                    h, n
+mul2                      multR4_20x20b_2c_1              19450.569535
+                                                                    h, n
+mul3                      multR4_20x20b_2c_0              19343.004739
+                                                                    h, n
+subber                    carryLookAheadAdder_n20_0       502.700792
+                                                                    h, p
+v_reg_reg_0_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_1_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_2_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_3_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_4_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_5_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_6_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_7_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_8_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_9_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_10_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_11_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_12_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_13_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_14_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_15_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_16_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_17_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_18_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+v_reg_reg_19_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_0_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_1_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_2_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_3_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_4_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_5_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_6_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_7_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_8_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_9_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_10_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_11_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_12_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_13_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_14_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_15_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_16_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_17_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_18_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+w_reg_reg_19_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_0_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_1_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_2_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_3_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_4_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_5_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_6_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_7_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_8_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_9_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_10_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_11_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_12_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_13_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_14_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_15_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_16_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_17_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_18_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+x_reg_reg_19_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_0_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_1_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_2_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_3_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_4_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_5_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_6_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_7_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_8_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_9_              FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_10_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_11_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_12_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_13_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_14_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_15_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_16_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_17_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_18_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+y_reg_reg_19_             FD2QNSVTX2      CORE90GPSVT     18.659201 n
+--------------------------------------------------------------------------------
+Total 288 cells                                           81058.857362
+1

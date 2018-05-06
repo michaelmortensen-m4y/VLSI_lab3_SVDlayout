@@ -1,0 +1,140 @@
+Loading db file '/cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db'
+Loading db file '/cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+        -verbose
+Design : SVD
+Version: G-2012.06
+Date   : Sun May  6 13:08:52 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+    CORE90GPHVT (File: /cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SVD                    area_72Kto96K     CORE90GPSVT
+multR4_20x20b_2c_3     area_18Kto24K     CORE90GPSVT
+multR4_20x20b_2c_2     area_18Kto24K     CORE90GPSVT
+carryLookAheadAdder_n20_1
+                       area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_39     area_0to1K        CORE90GPSVT
+tree_11t2_40b_3        area_12Kto18K     CORE90GPSVT
+gl_cpa_n39_3           area_0to1K        CORE90GPSVT
+tree_11t2_40b_2        area_12Kto18K     CORE90GPSVT
+gl_csa42_n39_11        area_2Kto3K       CORE90GPSVT
+gl_csa32_n39_11        area_1Kto2K       CORE90GPSVT
+multR4_20x20b_2c_0     area_18Kto24K     CORE90GPSVT
+multR4_20x20b_2c_1     area_18Kto24K     CORE90GPSVT
+carryLookAheadAdder_n20_0
+                       area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_0      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_1      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_2      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_3      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_4      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_5      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_6      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_7      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_8      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_9      area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_10     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_11     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_12     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_13     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_14     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_15     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_16     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_17     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_18     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_19     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_20     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_21     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_22     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_23     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_24     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_25     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_26     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_27     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_28     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_29     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_30     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_31     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_32     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_33     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_34     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_35     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_36     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_37     area_0to1K        CORE90GPSVT
+PARTPROD_2c_n20_38     area_0to1K        CORE90GPSVT
+tree_11t2_40b_0        area_12Kto18K     CORE90GPSVT
+tree_11t2_40b_1        area_12Kto18K     CORE90GPSVT
+gl_cpa_n39_0           area_0to1K        CORE90GPSVT
+gl_cpa_n39_1           area_0to1K        CORE90GPSVT
+gl_cpa_n39_2           area_0to1K        CORE90GPSVT
+gl_csa42_n39_0         area_1Kto2K       CORE90GPSVT
+gl_csa42_n39_1         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_2         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_3         area_1Kto2K       CORE90GPSVT
+gl_csa42_n39_4         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_5         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_6         area_1Kto2K       CORE90GPSVT
+gl_csa42_n39_7         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_8         area_2Kto3K       CORE90GPSVT
+gl_csa42_n39_9         area_1Kto2K       CORE90GPSVT
+gl_csa42_n39_10        area_2Kto3K       CORE90GPSVT
+gl_csa32_n39_0         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_1         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_2         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_3         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_4         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_5         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_6         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_7         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_8         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_9         area_1Kto2K       CORE90GPSVT
+gl_csa32_n39_10        area_1Kto2K       CORE90GPSVT
+gl_cpa_n39_0_DW01_add_0
+                       area_0to1K        CORE90GPSVT
+gl_cpa_n39_1_DW01_add_0
+                       area_0to1K        CORE90GPSVT
+gl_cpa_n39_2_DW01_add_0
+                       area_0to1K        CORE90GPSVT
+gl_cpa_n39_3_DW01_add_0
+                       area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+SVD                                       4.093   13.736 1.91e+08   18.020 100.0
+  subber (carryLookAheadAdder_n20_0)   2.37e-02 3.27e-02 6.74e+05 5.70e-02   0.3
+  adder (carryLookAheadAdder_n20_1)    2.23e-02 3.20e-02 7.58e+05 5.50e-02   0.3
+  mul3 (multR4_20x20b_2c_0)               0.972    3.170 4.60e+07    4.187  23.2
+  mul2 (multR4_20x20b_2c_1)               0.983    3.191 4.71e+07    4.221  23.4
+  mul1 (multR4_20x20b_2c_2)               0.967    3.195 4.81e+07    4.210  23.4
+  mul0 (multR4_20x20b_2c_3)               0.951    3.110 4.46e+07    4.105  22.8
+1

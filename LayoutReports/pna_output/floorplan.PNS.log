@@ -1,0 +1,14 @@
+
+Name of design : floorplan
+Number of cell instance masters in the library : 136
+Number of cell instances in the design : 8069
+Target IR drop : 200.000 mV
+Processing net VDD ...
+Average power dissipation in floorplan :  1000.00 mW
+Power supply voltage :     1.50 V
+Average current in floorplan :   666.67 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 8
+Maximum IR drop in floorplan : 199.29 mV
+Maximum current in floorplan : 103.326 mA
+Memory usage for design data :       4333.568 Kbytes
+Overall takes     0.36 seconds

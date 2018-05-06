@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : SVD
+Version: G-2012.06
+Date   : Sun May  6 13:08:51 2018
+****************************************
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+  Startpoint: w_reg_reg_7_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: mul2/I_tree/p2l0_reg_reg_8_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SVD                area_72Kto96K         CORE90GPSVT
+  multR4_20x20b_2c_1 area_18Kto24K         CORE90GPSVT
+  PARTPROD_2c_n20_15 area_0to1K            CORE90GPSVT
+  gl_csa42_n39_4     area_2Kto3K           CORE90GPSVT
+  tree_11t2_40b_1    area_12Kto18K         CORE90GPSVT
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.000      0.000
+  w_reg_reg_7_/CP (FD2QNSVTX2)                           0.000      0.000 r
+  w_reg_reg_7_/QN (FD2QNSVTX2)                           0.141      0.141 f
+  U224/Z (NR2ASVTX4)                                     0.023      0.164 r
+  mul2/Y[7] (multR4_20x20b_2c_1)                         0.000      0.164 r
+  mul2/U23/Z (BFSVTX6)                                   0.034      0.199 r
+  mul2/PPG_4/Y[0] (PARTPROD_2c_n20_15)                   0.000      0.199 r
+  mul2/PPG_4/U50/Z (BFSVTX4)                             0.038      0.236 r
+  mul2/PPG_4/U10/Z (IVSVTX6)                             0.016      0.252 f
+  mul2/PPG_4/U12/Z (ENHVTX4)                             0.085      0.338 f
+  mul2/PPG_4/U47/Z (ND2HVTX1)                            0.058      0.395 r
+  mul2/PPG_4/U63/Z (EOSVTX1)                             0.104      0.499 r
+  mul2/PPG_4/P[0] (PARTPROD_2c_n20_15)                   0.000      0.499 r
+  mul2/I_tree/P4[0] (tree_11t2_40b_1)                    0.000      0.499 r
+  mul2/I_tree/A_14/A[8] (gl_csa42_n39_4)                 0.000      0.499 r
+  mul2/I_tree/A_14/U102/Z (EO3HVTX1)                     0.256      0.755 f
+  mul2/I_tree/A_14/U134/Z (EOSVTX1)                      0.069      0.824 r
+  mul2/I_tree/A_14/Z[8] (gl_csa42_n39_4)                 0.000      0.824 r
+  mul2/I_tree/A_20/C[8] (gl_csa32_n39_4)                 0.000      0.824 r
+  mul2/I_tree/A_20/U43/Z (EOSVTX2)                       0.090      0.914 r
+  mul2/I_tree/A_20/Z[8] (gl_csa32_n39_4)                 0.000      0.914 r
+  mul2/I_tree/p2l0_reg_reg_8_/D (FD2QSVTX2)              0.000      0.914 r
+  data arrival time                                                 0.914
+
+  clock CLK (rise edge)                                  1.000      1.000
+  clock network delay (ideal)                            0.000      1.000
+  mul2/I_tree/p2l0_reg_reg_8_/CP (FD2QSVTX2)             0.000      1.000 r
+  library setup time                                    -0.086      0.914
+  data required time                                                0.914
+  --------------------------------------------------------------------------
+  data required time                                                0.914
+  data arrival time                                                -0.914
+  --------------------------------------------------------------------------
+  slack (MET)                                                       0.000
+
+
+1

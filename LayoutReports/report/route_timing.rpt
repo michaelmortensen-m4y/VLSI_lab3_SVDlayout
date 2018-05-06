@@ -1,0 +1,143 @@
+Information: Start rc update...
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.00026 0.00011 (RCEX-011)
+Information: Library Derived Res for layer M1 : 0.00097 0.00056 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.00029 0.00012 (RCEX-011)
+Information: Library Derived Res for layer M2 : 0.00066 0.00037 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.00029 0.00012 (RCEX-011)
+Information: Library Derived Res for layer M3 : 0.00066 0.00037 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.00029 0.00012 (RCEX-011)
+Information: Library Derived Res for layer M4 : 0.00066 0.00037 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.0003 0.00013 (RCEX-011)
+Information: Library Derived Res for layer M5 : 0.00066 0.00037 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.00039 0.00016 (RCEX-011)
+Information: Library Derived Res for layer M6 : 6.7e-05 3.8e-05 (RCEX-011)
+Information: Library Derived Cap for layer M7 : 0.0004 0.00017 (RCEX-011)
+Information: Library Derived Res for layer M7 : 6.7e-05 3.8e-05 (RCEX-011)
+Information: Max Cap for layer AP is scaled by  1.20 (RCEX-009)
+Information: Min Cap for layer AP is scaled by  1.20 (RCEX-009)
+Information: Library Derived Cap for layer AP : 0.00035 0.00018 (RCEX-011)
+Information: Library Derived Res for layer AP : 1e-05 6.7e-06 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.00031 0.00013 (RCEX-011)
+Information: Library Derived Horizontal Res : 0.00059 0.00033 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.00035 0.00016 (RCEX-011)
+Information: Library Derived Vertical Res : 0.00035 0.0002 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 0.0027 0.00072 (RCEX-011)
+Information: End rc update.
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -capacitance
+Design : SVD
+Version: G-2012.06-ICC
+Date   : Sun May  6 13:22:33 2018
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 25/25/25
+
+Information: Percent of Arnoldi-based delays =  0.00%
+
+  Startpoint: w_reg_reg_13_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: mul2/I_tree/p2l0_reg_reg_15_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  ----------------------------------------------------------------------------------------------------------------
+  clock CLK (rise edge)                                                   0.000000   0.000000
+  clock network delay (propagated)                                        0.117789   0.117789
+  w_reg_reg_13_/CP (FD2QNSVTX2)                                 0.122580  0.000000   0.117789 r
+  w_reg_reg_13_/QN (FD2QNSVTX2)                                 0.028031  0.169521   0.287310 f
+  n68 (net)                                     2     0.008086            0.000000   0.287310 f
+  U286/A (IVSVTX2)                                              0.028031  0.000139 & 0.287449 f
+  U286/Z (IVSVTX2)                                              0.019182  0.017755   0.305204 r
+  n168 (net)                                    1     0.006280            0.000000   0.305204 r
+  U283/B (ND2HVTX4)                                             0.019182  0.000005 & 0.305209 r
+  U283/Z (ND2HVTX4)                                             0.020367  0.018884   0.324093 f
+  n169 (net)                                    1     0.008740            0.000000   0.324093 f
+  U366/A (IVSVTX4)                                              0.020367  0.000090 & 0.324183 f
+  U366/Z (IVSVTX4)                                              0.039847  0.028446   0.352629 r
+  andOut_wd[13] (net)                           5     0.039558            0.000000   0.352629 r
+  mul2/Y[13] (multR4_20x20b_2c_1)                                         0.000000   0.352629 r
+  mul2/Y[13] (net)                                    0.039558            0.000000   0.352629 r
+  mul2/U9/A (IVSVTX4)                                           0.039847  0.001752 & 0.354380 r
+  mul2/U9/Z (IVSVTX4)                                           0.036199  0.031576   0.385957 f
+  mul2/n14 (net)                                6     0.046634            0.000000   0.385957 f
+  mul2/PPG_7/Y[0] (PARTPROD_2c_n20_12)                                    0.000000   0.385957 f
+  mul2/PPG_7/Y[0] (net)                               0.046634            0.000000   0.385957 f
+  mul2/PPG_7/U43/D (AO14NSVTX4)                                 0.036199  0.000508 & 0.386465 f
+  mul2/PPG_7/U43/Z (AO14NSVTX4)                                 0.059766  0.120622   0.507087 f
+  mul2/PPG_7/n4 (net)                          21     0.073185            0.000000   0.507087 f
+  mul2/PPG_7/U7/B (AO2SVTX1)                                    0.059766  0.001477 & 0.508564 f
+  mul2/PPG_7/U7/Z (AO2SVTX1)                                    0.092513  0.071780   0.580343 r
+  mul2/PPG_7/n61 (net)                          1     0.007227            0.000000   0.580343 r
+  mul2/PPG_7/U6/A (ENHVTX4)                                     0.092513  0.000173 & 0.580517 r
+  mul2/PPG_7/U6/Z (ENHVTX4)                                     0.036757  0.140555   0.721071 f
+  mul2/PPG_7/P[1] (net)                         2     0.018781            0.000000   0.721071 f
+  mul2/PPG_7/P[1] (PARTPROD_2c_n20_12)                                    0.000000   0.721071 f
+  mul2/P7[1] (net)                                    0.018781            0.000000   0.721071 f
+  mul2/I_tree/P7[1] (tree_11t2_40b_1)                                     0.000000   0.721071 f
+  mul2/I_tree/P7[1] (net)                             0.018781            0.000000   0.721071 f
+  mul2/I_tree/A_14/D[15] (gl_csa42_n39_4)                                 0.000000   0.721071 f
+  mul2/I_tree/A_14/D[15] (net)                        0.018781            0.000000   0.721071 f
+  mul2/I_tree/A_14/U126/A (ENSVTX1)                             0.036757  0.000652 & 0.721724 f
+  mul2/I_tree/A_14/U126/Z (ENSVTX1)                             0.039848  0.069103   0.790827 f
+  mul2/I_tree/A_14/n128 (net)                   1     0.005116            0.000000   0.790827 f
+  mul2/I_tree/A_14/U83/C (EO3SVTX2)                             0.039848  0.000053 & 0.790880 f
+  mul2/I_tree/A_14/U83/Z (EO3SVTX2)                             0.048980  0.086413   0.877293 f
+  mul2/I_tree/A_14/n172 (net)                   3     0.013393            0.000000   0.877293 f
+  mul2/I_tree/A_14/U37/A (EOSVTX1)                              0.048980  0.000183 & 0.877476 f
+  mul2/I_tree/A_14/U37/Z (EOSVTX1)                              0.070837  0.083670   0.961146 r
+  mul2/I_tree/A_14/Z[15] (net)                  2     0.009255            0.000000   0.961146 r
+  mul2/I_tree/A_14/Z[15] (gl_csa42_n39_4)                                 0.000000   0.961146 r
+  mul2/I_tree/p1l2[15] (net)                          0.009255            0.000000   0.961146 r
+  mul2/I_tree/A_20/C[15] (gl_csa32_n39_4)                                 0.000000   0.961146 r
+  mul2/I_tree/A_20/C[15] (net)                        0.009255            0.000000   0.961146 r
+  mul2/I_tree/A_20/U28/A (EOHVTX4)                              0.070837  0.000159 & 0.961305 r
+  mul2/I_tree/A_20/U28/Z (EOHVTX4)                              0.018956  0.107281   1.068586 r
+  mul2/I_tree/A_20/Z[15] (net)                  1     0.002836            0.000000   1.068586 r
+  mul2/I_tree/A_20/Z[15] (gl_csa32_n39_4)                                 0.000000   1.068586 r
+  mul2/I_tree/p2l0_next[15] (net)                     0.002836            0.000000   1.068586 r
+  mul2/I_tree/p2l0_reg_reg_15_/D (FD2QSVTX2)                    0.018956  0.000046 & 1.068632 r
+  data arrival time                                                                  1.068632
+
+  clock CLK (rise edge)                                                   1.000000   1.000000
+  clock network delay (propagated)                                        0.119002   1.119002
+  mul2/I_tree/p2l0_reg_reg_15_/CP (FD2QSVTX2)                             0.000000   1.119002 r
+  library setup time                                                      -0.048403  1.070598
+  data required time                                                                 1.070598
+  ----------------------------------------------------------------------------------------------------------------
+  data required time                                                                 1.070598
+  data arrival time                                                                  -1.068632
+  ----------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                        0.001967
+
+
+1

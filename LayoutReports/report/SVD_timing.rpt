@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -capacitance
+Design : SVD
+Version: G-2012.06
+Date   : Sun May  6 13:08:51 2018
+****************************************
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+  Startpoint: w_reg_reg_7_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: mul2/I_tree/p2l0_reg_reg_8_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SVD                area_72Kto96K         CORE90GPSVT
+  multR4_20x20b_2c_1 area_18Kto24K         CORE90GPSVT
+  PARTPROD_2c_n20_15 area_0to1K            CORE90GPSVT
+  gl_csa42_n39_4     area_2Kto3K           CORE90GPSVT
+  tree_11t2_40b_1    area_12Kto18K         CORE90GPSVT
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+
+  Point                                       Fanout       Cap     Trans      Incr       Path      Attributes
+  ----------------------------------------------------------------------------------------------------------------
+  clock CLK (rise edge)                                                   0.000000   0.000000
+  clock network delay (ideal)                                             0.000000   0.000000
+  w_reg_reg_7_/CP (FD2QNSVTX2)                                  0.000000  0.000000   0.000000 r
+  w_reg_reg_7_/QN (FD2QNSVTX2)                                  0.038872  0.140883   0.140883 f
+  n74 (net)                                     2     0.017289            0.000000   0.140883 f
+  U224/B (NR2ASVTX4)                                            0.038872  0.000037   0.140920 f
+  U224/Z (NR2ASVTX4)                                            0.026495  0.023352   0.164272 r
+  andOut_wd[7] (net)                            1     0.007115            0.000000   0.164272 r
+  mul2/Y[7] (multR4_20x20b_2c_1)                                          0.000000   0.164272 r
+  mul2/Y[7] (net)                                     0.007115            0.000000   0.164272 r
+  mul2/U23/A (BFSVTX6)                                          0.026495  0.000031   0.164302 r
+  mul2/U23/Z (BFSVTX6)                                          0.015744  0.034375   0.198678 r
+  mul2/n52 (net)                                2     0.011629            0.000000   0.198678 r
+  mul2/PPG_4/Y[0] (PARTPROD_2c_n20_15)                                    0.000000   0.198678 r
+  mul2/PPG_4/Y[0] (net)                               0.011629            0.000000   0.198678 r
+  mul2/PPG_4/U50/A (BFSVTX4)                                    0.015744  0.000023   0.198700 r
+  mul2/PPG_4/U50/Z (BFSVTX4)                                    0.025410  0.037758   0.236459 r
+  mul2/PPG_4/n38 (net)                          2     0.020513            0.000000   0.236459 r
+  mul2/PPG_4/U10/A (IVSVTX6)                                    0.025410  0.000053   0.236511 r
+  mul2/PPG_4/U10/Z (IVSVTX6)                                    0.016959  0.015928   0.252439 f
+  mul2/PPG_4/n39 (net)                          4     0.028306            0.000000   0.252439 f
+  mul2/PPG_4/U12/B (ENHVTX4)                                    0.016959  0.000033   0.252473 f
+  mul2/PPG_4/U12/Z (ENHVTX4)                                    0.040677  0.085195   0.337668 f
+  mul2/PPG_4/n36 (net)                          7     0.026976            0.000000   0.337668 f
+  mul2/PPG_4/U47/A (ND2HVTX1)                                   0.040677  0.000014   0.337682 f
+  mul2/PPG_4/U47/Z (ND2HVTX1)                                   0.070868  0.057667   0.395350 r
+  mul2/PPG_4/n16 (net)                          1     0.007006            0.000000   0.395350 r
+  mul2/PPG_4/U63/B (EOSVTX1)                                    0.070868  0.000026   0.395375 r
+  mul2/PPG_4/U63/Z (EOSVTX1)                                    0.073051  0.103984   0.499359 r
+  mul2/PPG_4/P[0] (net)                         2     0.010278            0.000000   0.499359 r
+  mul2/PPG_4/P[0] (PARTPROD_2c_n20_15)                                    0.000000   0.499359 r
+  mul2/P4[0] (net)                                    0.010278            0.000000   0.499359 r
+  mul2/I_tree/P4[0] (tree_11t2_40b_1)                                     0.000000   0.499359 r
+  mul2/I_tree/P4[0] (net)                             0.010278            0.000000   0.499359 r
+  mul2/I_tree/A_14/A[8] (gl_csa42_n39_4)                                  0.000000   0.499359 r
+  mul2/I_tree/A_14/A[8] (net)                         0.010278            0.000000   0.499359 r
+  mul2/I_tree/A_14/U102/B (EO3HVTX1)                            0.073051  0.000018   0.499377 r
+  mul2/I_tree/A_14/U102/Z (EO3HVTX1)                            0.083965  0.255529   0.754905 f
+  mul2/I_tree/A_14/n236 (net)                   3     0.014033            0.000000   0.754905 f
+  mul2/I_tree/A_14/U134/A (EOSVTX1)                             0.083965  0.000026   0.754931 f
+  mul2/I_tree/A_14/U134/Z (EOSVTX1)                             0.075764  0.068886   0.823816 r
+  mul2/I_tree/A_14/Z[8] (net)                   2     0.010442            0.000000   0.823816 r
+  mul2/I_tree/A_14/Z[8] (gl_csa42_n39_4)                                  0.000000   0.823816 r
+  mul2/I_tree/p1l2[8] (net)                           0.010442            0.000000   0.823816 r
+  mul2/I_tree/A_20/C[8] (gl_csa32_n39_4)                                  0.000000   0.823816 r
+  mul2/I_tree/A_20/C[8] (net)                         0.010442            0.000000   0.823816 r
+  mul2/I_tree/A_20/U43/A (EOSVTX2)                              0.075764  0.000025   0.823841 r
+  mul2/I_tree/A_20/U43/Z (EOSVTX2)                              0.021290  0.089664   0.913505 r
+  mul2/I_tree/A_20/Z[8] (net)                   1     0.003986            0.000000   0.913505 r
+  mul2/I_tree/A_20/Z[8] (gl_csa32_n39_4)                                  0.000000   0.913505 r
+  mul2/I_tree/p2l0_next[8] (net)                      0.003986            0.000000   0.913505 r
+  mul2/I_tree/p2l0_reg_reg_8_/D (FD2QSVTX2)                     0.021290  0.000016   0.913521 r
+  data arrival time                                                                  0.913521
+
+  clock CLK (rise edge)                                                   1.000000   1.000000
+  clock network delay (ideal)                                             0.000000   1.000000
+  mul2/I_tree/p2l0_reg_reg_8_/CP (FD2QSVTX2)                              0.000000   1.000000 r
+  library setup time                                                      -0.086416  0.913584
+  data required time                                                                 0.913584
+  ----------------------------------------------------------------------------------------------------------------
+  data required time                                                                 0.913584
+  data arrival time                                                                  -0.913521
+  ----------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                        0.000063
+
+
+1
